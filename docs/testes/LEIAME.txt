@@ -1,0 +1,3 @@
+Coloque aqui os prints dos 7 testes (Postman / Thunder Client),
+mostrando a requisição e a resposta (status + JSON).
+O arquivo testes.http contém as 7 requisições prontas.

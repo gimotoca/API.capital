@@ -1,0 +1,20 @@
+### Teste 1 - SP -> São Paulo
+GET http://localhost:3000/estados/SP
+
+### Teste 2 - RJ -> Rio de Janeiro
+GET http://localhost:3000/estados/RJ
+
+### Teste 3 - MG -> Belo Horizonte
+GET http://localhost:3000/estados/MG
+
+### Teste 4 - BA -> Salvador
+GET http://localhost:3000/estados/BA
+
+### Teste 5 - AM -> Manaus
+GET http://localhost:3000/estados/AM
+
+### Teste 6 - df (minúsculas) -> Brasília
+GET http://localhost:3000/estados/df
+
+### Teste 7 - XX -> 404
+GET http://localhost:3000/estados/XX

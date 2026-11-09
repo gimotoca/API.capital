@@ -1,0 +1,22 @@
+{
+  "name": "api-consulta-capitais",
+  "version": "1.0.0",
+  "description": "API de consulta de capitais dos estados brasileiros (Node.js, TypeScript e Express)",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": ["express", "typescript", "api", "capitais"],
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.10.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.2"
+  }
+}
